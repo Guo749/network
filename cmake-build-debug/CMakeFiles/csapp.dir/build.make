@@ -103,19 +103,64 @@ CMakeFiles/csapp.dir/csapp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csapp.dir/csapp.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wenchaoguo/CLionProjects/csapp/csapp.c -o CMakeFiles/csapp.dir/csapp.c.s
 
+CMakeFiles/csapp.dir/echoclient.c.o: CMakeFiles/csapp.dir/flags.make
+CMakeFiles/csapp.dir/echoclient.c.o: ../echoclient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/csapp.dir/echoclient.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/csapp.dir/echoclient.c.o   -c /Users/wenchaoguo/CLionProjects/csapp/echoclient.c
+
+CMakeFiles/csapp.dir/echoclient.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csapp.dir/echoclient.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wenchaoguo/CLionProjects/csapp/echoclient.c > CMakeFiles/csapp.dir/echoclient.c.i
+
+CMakeFiles/csapp.dir/echoclient.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csapp.dir/echoclient.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wenchaoguo/CLionProjects/csapp/echoclient.c -o CMakeFiles/csapp.dir/echoclient.c.s
+
+CMakeFiles/csapp.dir/echoserveri.c.o: CMakeFiles/csapp.dir/flags.make
+CMakeFiles/csapp.dir/echoserveri.c.o: ../echoserveri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/csapp.dir/echoserveri.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/csapp.dir/echoserveri.c.o   -c /Users/wenchaoguo/CLionProjects/csapp/echoserveri.c
+
+CMakeFiles/csapp.dir/echoserveri.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csapp.dir/echoserveri.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wenchaoguo/CLionProjects/csapp/echoserveri.c > CMakeFiles/csapp.dir/echoserveri.c.i
+
+CMakeFiles/csapp.dir/echoserveri.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csapp.dir/echoserveri.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wenchaoguo/CLionProjects/csapp/echoserveri.c -o CMakeFiles/csapp.dir/echoserveri.c.s
+
+CMakeFiles/csapp.dir/hostinfo.c.o: CMakeFiles/csapp.dir/flags.make
+CMakeFiles/csapp.dir/hostinfo.c.o: ../hostinfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/csapp.dir/hostinfo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/csapp.dir/hostinfo.c.o   -c /Users/wenchaoguo/CLionProjects/csapp/hostinfo.c
+
+CMakeFiles/csapp.dir/hostinfo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csapp.dir/hostinfo.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wenchaoguo/CLionProjects/csapp/hostinfo.c > CMakeFiles/csapp.dir/hostinfo.c.i
+
+CMakeFiles/csapp.dir/hostinfo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csapp.dir/hostinfo.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wenchaoguo/CLionProjects/csapp/hostinfo.c -o CMakeFiles/csapp.dir/hostinfo.c.s
+
 # Object files for target csapp
 csapp_OBJECTS = \
 "CMakeFiles/csapp.dir/main.c.o" \
-"CMakeFiles/csapp.dir/csapp.c.o"
+"CMakeFiles/csapp.dir/csapp.c.o" \
+"CMakeFiles/csapp.dir/echoclient.c.o" \
+"CMakeFiles/csapp.dir/echoserveri.c.o" \
+"CMakeFiles/csapp.dir/hostinfo.c.o"
 
 # External object files for target csapp
 csapp_EXTERNAL_OBJECTS =
 
 csapp: CMakeFiles/csapp.dir/main.c.o
 csapp: CMakeFiles/csapp.dir/csapp.c.o
+csapp: CMakeFiles/csapp.dir/echoclient.c.o
+csapp: CMakeFiles/csapp.dir/echoserveri.c.o
+csapp: CMakeFiles/csapp.dir/hostinfo.c.o
 csapp: CMakeFiles/csapp.dir/build.make
 csapp: CMakeFiles/csapp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable csapp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable csapp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/csapp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

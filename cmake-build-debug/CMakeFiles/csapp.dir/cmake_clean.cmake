@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/csapp.dir/csapp.c.o"
+  "CMakeFiles/csapp.dir/echoclient.c.o"
+  "CMakeFiles/csapp.dir/echoserveri.c.o"
+  "CMakeFiles/csapp.dir/hostinfo.c.o"
   "CMakeFiles/csapp.dir/main.c.o"
   "csapp"
   "csapp.pdb"

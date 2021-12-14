@@ -170,6 +170,87 @@ csapp.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/csapp.c.s
 .PHONY : csapp.c.s
 
+echoclient.o: echoclient.c.o
+
+.PHONY : echoclient.o
+
+# target to build an object file
+echoclient.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoclient.c.o
+.PHONY : echoclient.c.o
+
+echoclient.i: echoclient.c.i
+
+.PHONY : echoclient.i
+
+# target to preprocess a source file
+echoclient.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoclient.c.i
+.PHONY : echoclient.c.i
+
+echoclient.s: echoclient.c.s
+
+.PHONY : echoclient.s
+
+# target to generate assembly for a file
+echoclient.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoclient.c.s
+.PHONY : echoclient.c.s
+
+echoserveri.o: echoserveri.c.o
+
+.PHONY : echoserveri.o
+
+# target to build an object file
+echoserveri.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoserveri.c.o
+.PHONY : echoserveri.c.o
+
+echoserveri.i: echoserveri.c.i
+
+.PHONY : echoserveri.i
+
+# target to preprocess a source file
+echoserveri.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoserveri.c.i
+.PHONY : echoserveri.c.i
+
+echoserveri.s: echoserveri.c.s
+
+.PHONY : echoserveri.s
+
+# target to generate assembly for a file
+echoserveri.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoserveri.c.s
+.PHONY : echoserveri.c.s
+
+hostinfo.o: hostinfo.c.o
+
+.PHONY : hostinfo.o
+
+# target to build an object file
+hostinfo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/hostinfo.c.o
+.PHONY : hostinfo.c.o
+
+hostinfo.i: hostinfo.c.i
+
+.PHONY : hostinfo.i
+
+# target to preprocess a source file
+hostinfo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/hostinfo.c.i
+.PHONY : hostinfo.c.i
+
+hostinfo.s: hostinfo.c.s
+
+.PHONY : hostinfo.s
+
+# target to generate assembly for a file
+hostinfo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/hostinfo.c.s
+.PHONY : hostinfo.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -209,6 +290,15 @@ help:
 	@echo "... csapp.o"
 	@echo "... csapp.i"
 	@echo "... csapp.s"
+	@echo "... echoclient.o"
+	@echo "... echoclient.i"
+	@echo "... echoclient.s"
+	@echo "... echoserveri.o"
+	@echo "... echoserveri.i"
+	@echo "... echoserveri.s"
+	@echo "... hostinfo.o"
+	@echo "... hostinfo.i"
+	@echo "... hostinfo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

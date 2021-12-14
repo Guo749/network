@@ -3,4 +3,4 @@ project(csapp C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(csapp main.c csapp.c csapp.h)
+add_executable(csapp main.c csapp.c csapp.h echoclient.c echoserveri.c hostinfo.c)

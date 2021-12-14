@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/wenchaoguo/CLionProjects/csapp/csapp.c" "/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles/csapp.dir/csapp.c.o"
+  "/Users/wenchaoguo/CLionProjects/csapp/echoclient.c" "/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles/csapp.dir/echoclient.c.o"
+  "/Users/wenchaoguo/CLionProjects/csapp/echoserveri.c" "/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles/csapp.dir/echoserveri.c.o"
+  "/Users/wenchaoguo/CLionProjects/csapp/hostinfo.c" "/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles/csapp.dir/hostinfo.c.o"
   "/Users/wenchaoguo/CLionProjects/csapp/main.c" "/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles/csapp.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

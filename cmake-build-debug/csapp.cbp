@@ -84,6 +84,15 @@
 		<Unit filename="/Users/wenchaoguo/CLionProjects/csapp/csapp.h">
 			<Option target="csapp"/>
 		</Unit>
+		<Unit filename="/Users/wenchaoguo/CLionProjects/csapp/echoclient.c">
+			<Option target="csapp"/>
+		</Unit>
+		<Unit filename="/Users/wenchaoguo/CLionProjects/csapp/echoserveri.c">
+			<Option target="csapp"/>
+		</Unit>
+		<Unit filename="/Users/wenchaoguo/CLionProjects/csapp/hostinfo.c">
+			<Option target="csapp"/>
+		</Unit>
 		<Unit filename="/Users/wenchaoguo/CLionProjects/csapp/main.c">
 			<Option target="csapp"/>
 		</Unit>
