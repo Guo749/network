@@ -1,13 +1,16 @@
+CC = gcc
+CFLAGS = -Wall -pedantic -pthread -ggdb3
+
 all: client server
 
 client: csapp.o
-	gcc -o $@ echoclient.c $<
+	gcc $(CFLAGS) -o $@ echoclient.c $<
 
 server: csapp.o
-	gcc -o $@ echoserver.c $<
+	gcc $(CFLAGS) -o $@ echoserver.c $<
 
 csapp.o: csapp.h
-	gcc -c csapp.c
+	gcc $(CFLAGS) -c csapp.c
 
 .PHONY: clean
 clean:
