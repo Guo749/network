@@ -7,7 +7,7 @@ client: csapp.o
 	gcc $(CFLAGS) -o $@ echoclient.c $<
 
 server: csapp.o
-	gcc $(CFLAGS) -o $@ echoserver.c $<
+	gcc $(CFLAGS) -o $@ echoserveri.c $<
 
 csapp.o: csapp.h
 	gcc $(CFLAGS) -c csapp.c
