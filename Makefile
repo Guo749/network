@@ -1,7 +1,14 @@
 CC = gcc
 CFLAGS = -Wall -pedantic -pthread -ggdb3
 
-all: client server
+# all: client server
+mine: clientg serverg
+clientg: csapp.o
+	gcc $(CFLAGS) -o $@ echoclientg.c $<
+
+serverg: csapp.o
+	gcc $(CFLAGS) -o $@ echoserverig.c $<
+
 
 client: csapp.o
 	gcc $(CFLAGS) -o $@ echoclient.c $<

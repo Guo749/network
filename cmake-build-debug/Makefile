@@ -143,6 +143,33 @@ csapp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/build
 .PHONY : csapp/fast
 
+adder.o: adder.c.o
+
+.PHONY : adder.o
+
+# target to build an object file
+adder.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/adder.c.o
+.PHONY : adder.c.o
+
+adder.i: adder.c.i
+
+.PHONY : adder.i
+
+# target to preprocess a source file
+adder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/adder.c.i
+.PHONY : adder.c.i
+
+adder.s: adder.c.s
+
+.PHONY : adder.s
+
+# target to generate assembly for a file
+adder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/adder.c.s
+.PHONY : adder.c.s
+
 csapp.o: csapp.c.o
 
 .PHONY : csapp.o
@@ -197,6 +224,33 @@ echoclient.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoclient.c.s
 .PHONY : echoclient.c.s
 
+echoclientg.o: echoclientg.c.o
+
+.PHONY : echoclientg.o
+
+# target to build an object file
+echoclientg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoclientg.c.o
+.PHONY : echoclientg.c.o
+
+echoclientg.i: echoclientg.c.i
+
+.PHONY : echoclientg.i
+
+# target to preprocess a source file
+echoclientg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoclientg.c.i
+.PHONY : echoclientg.c.i
+
+echoclientg.s: echoclientg.c.s
+
+.PHONY : echoclientg.s
+
+# target to generate assembly for a file
+echoclientg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoclientg.c.s
+.PHONY : echoclientg.c.s
+
 echoserveri.o: echoserveri.c.o
 
 .PHONY : echoserveri.o
@@ -223,6 +277,33 @@ echoserveri.s: echoserveri.c.s
 echoserveri.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoserveri.c.s
 .PHONY : echoserveri.c.s
+
+echoserverig.o: echoserverig.c.o
+
+.PHONY : echoserverig.o
+
+# target to build an object file
+echoserverig.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoserverig.c.o
+.PHONY : echoserverig.c.o
+
+echoserverig.i: echoserverig.c.i
+
+.PHONY : echoserverig.i
+
+# target to preprocess a source file
+echoserverig.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoserverig.c.i
+.PHONY : echoserverig.c.i
+
+echoserverig.s: echoserverig.c.s
+
+.PHONY : echoserverig.s
+
+# target to generate assembly for a file
+echoserverig.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/echoserverig.c.s
+.PHONY : echoserverig.c.s
 
 hostinfo.o: hostinfo.c.o
 
@@ -278,6 +359,60 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/main.c.s
 .PHONY : main.c.s
 
+practice.o: practice.c.o
+
+.PHONY : practice.o
+
+# target to build an object file
+practice.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/practice.c.o
+.PHONY : practice.c.o
+
+practice.i: practice.c.i
+
+.PHONY : practice.i
+
+# target to preprocess a source file
+practice.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/practice.c.i
+.PHONY : practice.c.i
+
+practice.s: practice.c.s
+
+.PHONY : practice.s
+
+# target to generate assembly for a file
+practice.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/practice.c.s
+.PHONY : practice.c.s
+
+tiny.o: tiny.c.o
+
+.PHONY : tiny.o
+
+# target to build an object file
+tiny.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/tiny.c.o
+.PHONY : tiny.c.o
+
+tiny.i: tiny.c.i
+
+.PHONY : tiny.i
+
+# target to preprocess a source file
+tiny.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/tiny.c.i
+.PHONY : tiny.c.i
+
+tiny.s: tiny.c.s
+
+.PHONY : tiny.s
+
+# target to generate assembly for a file
+tiny.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/tiny.c.s
+.PHONY : tiny.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -287,21 +422,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... csapp"
+	@echo "... adder.o"
+	@echo "... adder.i"
+	@echo "... adder.s"
 	@echo "... csapp.o"
 	@echo "... csapp.i"
 	@echo "... csapp.s"
 	@echo "... echoclient.o"
 	@echo "... echoclient.i"
 	@echo "... echoclient.s"
+	@echo "... echoclientg.o"
+	@echo "... echoclientg.i"
+	@echo "... echoclientg.s"
 	@echo "... echoserveri.o"
 	@echo "... echoserveri.i"
 	@echo "... echoserveri.s"
+	@echo "... echoserverig.o"
+	@echo "... echoserverig.i"
+	@echo "... echoserverig.s"
 	@echo "... hostinfo.o"
 	@echo "... hostinfo.i"
 	@echo "... hostinfo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... practice.o"
+	@echo "... practice.i"
+	@echo "... practice.s"
+	@echo "... tiny.o"
+	@echo "... tiny.i"
+	@echo "... tiny.s"
 .PHONY : help
 
 

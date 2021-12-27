@@ -142,13 +142,83 @@ CMakeFiles/csapp.dir/hostinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csapp.dir/hostinfo.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wenchaoguo/CLionProjects/csapp/hostinfo.c -o CMakeFiles/csapp.dir/hostinfo.c.s
 
+CMakeFiles/csapp.dir/tiny.c.o: CMakeFiles/csapp.dir/flags.make
+CMakeFiles/csapp.dir/tiny.c.o: ../tiny.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/csapp.dir/tiny.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/csapp.dir/tiny.c.o   -c /Users/wenchaoguo/CLionProjects/csapp/tiny.c
+
+CMakeFiles/csapp.dir/tiny.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csapp.dir/tiny.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wenchaoguo/CLionProjects/csapp/tiny.c > CMakeFiles/csapp.dir/tiny.c.i
+
+CMakeFiles/csapp.dir/tiny.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csapp.dir/tiny.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wenchaoguo/CLionProjects/csapp/tiny.c -o CMakeFiles/csapp.dir/tiny.c.s
+
+CMakeFiles/csapp.dir/adder.c.o: CMakeFiles/csapp.dir/flags.make
+CMakeFiles/csapp.dir/adder.c.o: ../adder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/csapp.dir/adder.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/csapp.dir/adder.c.o   -c /Users/wenchaoguo/CLionProjects/csapp/adder.c
+
+CMakeFiles/csapp.dir/adder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csapp.dir/adder.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wenchaoguo/CLionProjects/csapp/adder.c > CMakeFiles/csapp.dir/adder.c.i
+
+CMakeFiles/csapp.dir/adder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csapp.dir/adder.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wenchaoguo/CLionProjects/csapp/adder.c -o CMakeFiles/csapp.dir/adder.c.s
+
+CMakeFiles/csapp.dir/practice.c.o: CMakeFiles/csapp.dir/flags.make
+CMakeFiles/csapp.dir/practice.c.o: ../practice.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/csapp.dir/practice.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/csapp.dir/practice.c.o   -c /Users/wenchaoguo/CLionProjects/csapp/practice.c
+
+CMakeFiles/csapp.dir/practice.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csapp.dir/practice.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wenchaoguo/CLionProjects/csapp/practice.c > CMakeFiles/csapp.dir/practice.c.i
+
+CMakeFiles/csapp.dir/practice.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csapp.dir/practice.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wenchaoguo/CLionProjects/csapp/practice.c -o CMakeFiles/csapp.dir/practice.c.s
+
+CMakeFiles/csapp.dir/echoclientg.c.o: CMakeFiles/csapp.dir/flags.make
+CMakeFiles/csapp.dir/echoclientg.c.o: ../echoclientg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/csapp.dir/echoclientg.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/csapp.dir/echoclientg.c.o   -c /Users/wenchaoguo/CLionProjects/csapp/echoclientg.c
+
+CMakeFiles/csapp.dir/echoclientg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csapp.dir/echoclientg.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wenchaoguo/CLionProjects/csapp/echoclientg.c > CMakeFiles/csapp.dir/echoclientg.c.i
+
+CMakeFiles/csapp.dir/echoclientg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csapp.dir/echoclientg.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wenchaoguo/CLionProjects/csapp/echoclientg.c -o CMakeFiles/csapp.dir/echoclientg.c.s
+
+CMakeFiles/csapp.dir/echoserverig.c.o: CMakeFiles/csapp.dir/flags.make
+CMakeFiles/csapp.dir/echoserverig.c.o: ../echoserverig.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/csapp.dir/echoserverig.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/csapp.dir/echoserverig.c.o   -c /Users/wenchaoguo/CLionProjects/csapp/echoserverig.c
+
+CMakeFiles/csapp.dir/echoserverig.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/csapp.dir/echoserverig.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wenchaoguo/CLionProjects/csapp/echoserverig.c > CMakeFiles/csapp.dir/echoserverig.c.i
+
+CMakeFiles/csapp.dir/echoserverig.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/csapp.dir/echoserverig.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wenchaoguo/CLionProjects/csapp/echoserverig.c -o CMakeFiles/csapp.dir/echoserverig.c.s
+
 # Object files for target csapp
 csapp_OBJECTS = \
 "CMakeFiles/csapp.dir/main.c.o" \
 "CMakeFiles/csapp.dir/csapp.c.o" \
 "CMakeFiles/csapp.dir/echoclient.c.o" \
 "CMakeFiles/csapp.dir/echoserveri.c.o" \
-"CMakeFiles/csapp.dir/hostinfo.c.o"
+"CMakeFiles/csapp.dir/hostinfo.c.o" \
+"CMakeFiles/csapp.dir/tiny.c.o" \
+"CMakeFiles/csapp.dir/adder.c.o" \
+"CMakeFiles/csapp.dir/practice.c.o" \
+"CMakeFiles/csapp.dir/echoclientg.c.o" \
+"CMakeFiles/csapp.dir/echoserverig.c.o"
 
 # External object files for target csapp
 csapp_EXTERNAL_OBJECTS =
@@ -158,9 +228,14 @@ csapp: CMakeFiles/csapp.dir/csapp.c.o
 csapp: CMakeFiles/csapp.dir/echoclient.c.o
 csapp: CMakeFiles/csapp.dir/echoserveri.c.o
 csapp: CMakeFiles/csapp.dir/hostinfo.c.o
+csapp: CMakeFiles/csapp.dir/tiny.c.o
+csapp: CMakeFiles/csapp.dir/adder.c.o
+csapp: CMakeFiles/csapp.dir/practice.c.o
+csapp: CMakeFiles/csapp.dir/echoclientg.c.o
+csapp: CMakeFiles/csapp.dir/echoserverig.c.o
 csapp: CMakeFiles/csapp.dir/build.make
 csapp: CMakeFiles/csapp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable csapp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wenchaoguo/CLionProjects/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable csapp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/csapp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
